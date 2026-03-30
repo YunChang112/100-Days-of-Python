@@ -56,6 +56,41 @@ Python 的 for...in... 就像一个自动传送带：
 你的 GitHub 总结可以这样写：
    遍历切入点选择原则：永远选择那个包含重复业务单元的List作为for循环的入口。
 
+### 5
+以下是Gemini推荐的模版，每天以.md的形式记录，好过最后用PDF上传。
+# Day 35: API 突破与数据解构实战
+
+> **学习目标**：掌握 OpenWeatherMap API 调用，彻底理清嵌套 JSON 数据提取逻辑。
+
+---
+
+## 🏗️ 核心逻辑复盘（我的“电表比喻”）
+* **整个 `data`**：整栋大楼。
+* **`data["list"]`**：大楼里的每一层楼（List），这是我们**遍历的切入点**。
+* **`item`**：我当前正在检查的那一层。
+* **`item["weather"][0]["id"]`**：进到房间后，打开第一个抽屉里的电表 ID。
+
+## 🛠️ 代码兵器库 (Comprehension vs Generator)
+
+### 1. 列表推导式 (List Comprehension) - [ ]
+用于快速生成一排“零件”：
+`all_ids = [item["weather"][0]["id"] for item in data["list"]]`
+
+### 2. 字典推导式 (Dict Comprehension) - { }
+用于建立“索引查询表”：
+`weather_map = {item["dt"]: item["weather"][0]["id"] for item in data["list"]}`
+
+### 3. 生成器 (Generator) - ( )
+“木工师傅模式”：不占空间，要一个做一个。
+`weather_gen = (item["weather"][0]["id"] for item in data["list"])`
+
+---
+
+## 📅 持续记录 (2026-03-30)
+今天跟 Gemini 聊深了，发现 `Create New File` 比 `Upload` 更适合存这些思考。
+以后 Day 36 如果跨度长，我就在这个文档下面继续追加 `### Day 36 - Part 2`。
+
+
 ```python
 
 import requests
