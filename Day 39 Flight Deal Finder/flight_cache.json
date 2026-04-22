@@ -1,0 +1,1409 @@
+{
+    "search_metadata": {
+        "id": "search_mxzD17vdE2uP0XlGKklRw056",
+        "status": "Success",
+        "created_at": "2026-04-21T12:53:07Z",
+        "request_time_taken": 0.75,
+        "parsing_time_taken": 0.01,
+        "total_time_taken": 0.76,
+        "request_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTA0LTI3agcIARIDWVZScgcIARIDTlJUGh4SCjIwMjYtMDUtMDRqBwgBEgNOUlRyBwgBEgNZVlJAAUgBcAGCAQsI____________AZgBAQ&hl=en&gl=us&curr=USD",
+        "html_url": "https://www.searchapi.io/api/v1/searches/search_mxzD17vdE2uP0XlGKklRw056.html",
+        "json_url": "https://www.searchapi.io/api/v1/searches/search_mxzD17vdE2uP0XlGKklRw056"
+    },
+    "search_parameters": {
+        "engine": "google_flights",
+        "departure_id": "YVR",
+        "arrival_id": "NRT",
+        "currency": "USD",
+        "hl": "en",
+        "gl": "us",
+        "outbound_date": "2026-04-27",
+        "return_date": "2026-05-04",
+        "flight_type": "round_trip",
+        "travel_class": "economy",
+        "stops": "any",
+        "adults": "1",
+        "children": "0",
+        "infants_in_seat": "0",
+        "infants_on_lap": "0"
+    },
+    "best_flights": [
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Vancouver International Airport",
+                        "id": "YVR",
+                        "date": "2026-04-27",
+                        "time": "10:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Narita International Airport",
+                        "id": "NRT",
+                        "date": "2026-04-28",
+                        "time": "12:40"
+                    },
+                    "duration": 610,
+                    "airplane": "Boeing 787",
+                    "airline": "ZIPAIR Tokyo",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/ZG.png",
+                    "travel_class": "Economy",
+                    "flight_number": "ZG 21",
+                    "extensions": [
+                        "Power and USB outlets",
+                        "Stream video to own device",
+                        "Wi-Fi free",
+                        "Seat type Average Legroom",
+                        "Legroom 31 inches",
+                        "Carbon emission: 434 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_power_and_usb_outlets": true,
+                        "has_stream_video_to_own_device": true,
+                        "wifi": "free",
+                        "seat_type": "Average Legroom",
+                        "legroom_short": "31 in",
+                        "legroom_long": "31 inches",
+                        "carbon_emission": 434
+                    }
+                }
+            ],
+            "total_duration": 610,
+            "carbon_emissions": {
+                "this_flight": 435000,
+                "typical_for_this_route": 548000,
+                "difference_percent": -21,
+                "lowest_route": 524000
+            },
+            "price": 932,
+            "type": "Round trip",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/ZG.png",
+            "departure_token": "WyJDalJJVmkxa1FtaDVNRnB0WVhkQlEweElSVkZDUnkwdExTMHRMUzB0TFhCbWIyZ3lNVUZCUVVGQlIyNXVZM3BOVFRCUVdFbEJFZ1JhUnpJeEdnc0k1OWNGRUFJYUExVlRSRGdjY09mWEJRPT0iLFtbIllWUiIsIjIwMjYtMDQtMjciLCJOUlQiLG51bGwsIlpHIiwiMjEiXV1d"
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Vancouver International Airport",
+                        "id": "YVR",
+                        "date": "2026-04-27",
+                        "time": "12:50"
+                    },
+                    "arrival_airport": {
+                        "name": "Narita International Airport",
+                        "id": "NRT",
+                        "date": "2026-04-28",
+                        "time": "14:55"
+                    },
+                    "duration": 605,
+                    "airplane": "Boeing 777",
+                    "airline": "Air Canada",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AC 3",
+                    "ticket_also_sold_by": [
+                        "ANA"
+                    ],
+                    "is_often_delayed": true,
+                    "extensions": [
+                        "Power and USB outlets",
+                        "On-demand video",
+                        "Wi-Fi for fee",
+                        "Seat type Average Legroom",
+                        "Legroom 31 inches",
+                        "Carbon emission: 488 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_power_and_usb_outlets": true,
+                        "has_on_demand_video": true,
+                        "wifi": "for fee",
+                        "seat_type": "Average Legroom",
+                        "legroom_short": "31 in",
+                        "legroom_long": "31 inches",
+                        "carbon_emission": 488
+                    }
+                }
+            ],
+            "total_duration": 605,
+            "carbon_emissions": {
+                "this_flight": 489000,
+                "typical_for_this_route": 548000,
+                "difference_percent": -11,
+                "lowest_route": 524000
+            },
+            "price": 1101,
+            "type": "Round trip",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+            "departure_token": "WyJDalJJVmkxa1FtaDVNRnB0WVhkQlEweElSVkZDUnkwdExTMHRMUzB0TFhCbWIyZ3lNVUZCUVVGQlIyNXVZM3BOVFRCUVdFbEJFZ05CUXpNYUN3aUwzQVlRQWhvRFZWTkVPQnh3aTl3RyIsW1siWVZSIiwiMjAyNi0wNC0yNyIsIk5SVCIsbnVsbCwiQUMiLCIzIl1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Vancouver International Airport",
+                        "id": "YVR",
+                        "date": "2026-04-27",
+                        "time": "13:50"
+                    },
+                    "arrival_airport": {
+                        "name": "Narita International Airport",
+                        "id": "NRT",
+                        "date": "2026-04-28",
+                        "time": "15:50"
+                    },
+                    "duration": 600,
+                    "airplane": "Boeing 787",
+                    "airline": "JAL",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JL.png",
+                    "travel_class": "Economy",
+                    "flight_number": "JL 17",
+                    "ticket_also_sold_by": [
+                        "American",
+                        "WestJet"
+                    ],
+                    "extensions": [
+                        "Power and USB outlets",
+                        "On-demand video",
+                        "Wi-Fi for fee",
+                        "Seat type Above Average Legroom",
+                        "Legroom 33 inches",
+                        "Carbon emission: 523 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_power_and_usb_outlets": true,
+                        "has_on_demand_video": true,
+                        "wifi": "for fee",
+                        "seat_type": "Above Average Legroom",
+                        "legroom_short": "33 in",
+                        "legroom_long": "33 inches",
+                        "carbon_emission": 523
+                    }
+                }
+            ],
+            "total_duration": 600,
+            "carbon_emissions": {
+                "this_flight": 524000,
+                "typical_for_this_route": 548000,
+                "difference_percent": -4,
+                "lowest_route": 524000
+            },
+            "price": 1192,
+            "type": "Round trip",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JL.png",
+            "departure_token": "WyJDalJJVmkxa1FtaDVNRnB0WVhkQlEweElSVkZDUnkwdExTMHRMUzB0TFhCbWIyZ3lNVUZCUVVGQlIyNXVZM3BOVFRCUVdFbEJFZ1JLVERFM0dnc0kvS0lIRUFJYUExVlRSRGdjY1B5aUJ3PT0iLFtbIllWUiIsIjIwMjYtMDQtMjciLCJOUlQiLG51bGwsIkpMIiwiMTciXV1d"
+        }
+    ],
+    "other_flights": [
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Vancouver International Airport",
+                        "id": "YVR",
+                        "date": "2026-04-27",
+                        "time": "07:00"
+                    },
+                    "arrival_airport": {
+                        "name": "San Francisco International Airport",
+                        "id": "SFO",
+                        "date": "2026-04-27",
+                        "time": "09:24"
+                    },
+                    "duration": 144,
+                    "airplane": "Boeing 737",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "UA 2322",
+                    "ticket_also_sold_by": [
+                        "ANA"
+                    ],
+                    "extensions": [
+                        "Power and USB outlets",
+                        "On-demand video",
+                        "Wi-Fi for fee",
+                        "Seat type Average Legroom",
+                        "Legroom 30 inches",
+                        "Carbon emission: 129 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_power_and_usb_outlets": true,
+                        "has_on_demand_video": true,
+                        "wifi": "for fee",
+                        "seat_type": "Average Legroom",
+                        "legroom_short": "30 in",
+                        "legroom_long": "30 inches",
+                        "carbon_emission": 129
+                    }
+                },
+                {
+                    "departure_airport": {
+                        "name": "San Francisco International Airport",
+                        "id": "SFO",
+                        "date": "2026-04-27",
+                        "time": "11:40"
+                    },
+                    "arrival_airport": {
+                        "name": "Narita International Airport",
+                        "id": "NRT",
+                        "date": "2026-04-28",
+                        "time": "15:00"
+                    },
+                    "duration": 680,
+                    "airplane": "Boeing 777",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "UA 837",
+                    "ticket_also_sold_by": [
+                        "ANA"
+                    ],
+                    "extensions": [
+                        "Power and USB outlets",
+                        "On-demand video",
+                        "Wi-Fi for fee",
+                        "Seat type Average Legroom",
+                        "Legroom 31 inches",
+                        "Carbon emission: 552 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_power_and_usb_outlets": true,
+                        "has_on_demand_video": true,
+                        "wifi": "for fee",
+                        "seat_type": "Average Legroom",
+                        "legroom_short": "31 in",
+                        "legroom_long": "31 inches",
+                        "carbon_emission": 552
+                    }
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 136,
+                    "name": "San Francisco International Airport",
+                    "id": "SFO"
+                }
+            ],
+            "total_duration": 960,
+            "carbon_emissions": {
+                "this_flight": 682000,
+                "typical_for_this_route": 548000,
+                "difference_percent": 24,
+                "lowest_route": 524000
+            },
+            "price": 1026,
+            "type": "Round trip",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+            "departure_token": "WyJDalJJVmkxa1FtaDVNRnB0WVhkQlEweElSVkZDUnkwdExTMHRMUzB0TFhCbWIyZ3lNVUZCUVVGQlIyNXVZM3BOVFRCUVdFbEJFZ3hWUVRJek1qSjhWVUU0TXpjYUN3akJvUVlRQWhvRFZWTkVPQnh3d2FFRyIsW1siWVZSIiwiMjAyNi0wNC0yNyIsIlNGTyIsbnVsbCwiVUEiLCIyMzIyIl0sWyJTRk8iLCIyMDI2LTA0LTI3IiwiTlJUIixudWxsLCJVQSIsIjgzNyJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Vancouver International Airport",
+                        "id": "YVR",
+                        "date": "2026-04-27",
+                        "time": "19:20"
+                    },
+                    "arrival_airport": {
+                        "name": "San Francisco International Airport",
+                        "id": "SFO",
+                        "date": "2026-04-27",
+                        "time": "21:46"
+                    },
+                    "duration": 146,
+                    "airplane": "Boeing 737MAX 8 Passenger",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "UA 1083",
+                    "extensions": [
+                        "Power and USB outlets",
+                        "On-demand video",
+                        "Wi-Fi for fee",
+                        "Seat type Average Legroom",
+                        "Legroom 30 inches",
+                        "Carbon emission: 110 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_power_and_usb_outlets": true,
+                        "has_on_demand_video": true,
+                        "wifi": "for fee",
+                        "seat_type": "Average Legroom",
+                        "legroom_short": "30 in",
+                        "legroom_long": "30 inches",
+                        "carbon_emission": 110
+                    }
+                },
+                {
+                    "departure_airport": {
+                        "name": "San Francisco International Airport",
+                        "id": "SFO",
+                        "date": "2026-04-28",
+                        "time": "11:40"
+                    },
+                    "arrival_airport": {
+                        "name": "Narita International Airport",
+                        "id": "NRT",
+                        "date": "2026-04-29",
+                        "time": "15:00"
+                    },
+                    "duration": 680,
+                    "airplane": "Boeing 777",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "UA 837",
+                    "extensions": [
+                        "Power and USB outlets",
+                        "On-demand video",
+                        "Wi-Fi for fee",
+                        "Seat type Average Legroom",
+                        "Legroom 31 inches",
+                        "Carbon emission: 552 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_power_and_usb_outlets": true,
+                        "has_on_demand_video": true,
+                        "wifi": "for fee",
+                        "seat_type": "Average Legroom",
+                        "legroom_short": "31 in",
+                        "legroom_long": "31 inches",
+                        "carbon_emission": 552
+                    }
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 834,
+                    "name": "San Francisco International Airport",
+                    "id": "SFO",
+                    "is_overnight": true
+                }
+            ],
+            "total_duration": 1660,
+            "carbon_emissions": {
+                "this_flight": 663000,
+                "typical_for_this_route": 548000,
+                "difference_percent": 21,
+                "lowest_route": 524000
+            },
+            "price": 1026,
+            "type": "Round trip",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+            "departure_token": "WyJDalJJVmkxa1FtaDVNRnB0WVhkQlEweElSVkZDUnkwdExTMHRMUzB0TFhCbWIyZ3lNVUZCUVVGQlIyNXVZM3BOVFRCUVdFbEJFZ3hWUVRFd09ETjhWVUU0TXpjYUN3akJvUVlRQWhvRFZWTkVPQnh3d2FFRyIsW1siWVZSIiwiMjAyNi0wNC0yNyIsIlNGTyIsbnVsbCwiVUEiLCIxMDgzIl0sWyJTRk8iLCIyMDI2LTA0LTI4IiwiTlJUIixudWxsLCJVQSIsIjgzNyJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Vancouver International Airport",
+                        "id": "YVR",
+                        "date": "2026-04-27",
+                        "time": "13:40"
+                    },
+                    "arrival_airport": {
+                        "name": "Kansai International Airport",
+                        "id": "KIX",
+                        "date": "2026-04-28",
+                        "time": "16:25"
+                    },
+                    "duration": 645,
+                    "airplane": "Boeing 787",
+                    "airline": "Air Canada",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AC 23",
+                    "extensions": [
+                        "Power and USB outlets",
+                        "On-demand video",
+                        "Wi-Fi for fee",
+                        "Seat type Average Legroom",
+                        "Legroom 31 inches",
+                        "Carbon emission: 431 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_power_and_usb_outlets": true,
+                        "has_on_demand_video": true,
+                        "wifi": "for fee",
+                        "seat_type": "Average Legroom",
+                        "legroom_short": "31 in",
+                        "legroom_long": "31 inches",
+                        "carbon_emission": 431
+                    }
+                },
+                {
+                    "departure_airport": {
+                        "name": "Kansai International Airport",
+                        "id": "KIX",
+                        "date": "2026-04-28",
+                        "time": "21:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Narita International Airport",
+                        "id": "NRT",
+                        "date": "2026-04-28",
+                        "time": "22:25"
+                    },
+                    "duration": 85,
+                    "airplane": "Airbus A320",
+                    "airline": "Jetstar",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/GK.png",
+                    "travel_class": "Economy",
+                    "flight_number": "GK 238",
+                    "extensions": [
+                        "Seat type Below Average Legroom",
+                        "Legroom 29 inches",
+                        "Carbon emission: 75 kg"
+                    ],
+                    "detected_extensions": {
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "29 in",
+                        "legroom_long": "29 inches",
+                        "carbon_emission": 75
+                    }
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 275,
+                    "name": "Kansai International Airport",
+                    "id": "KIX"
+                }
+            ],
+            "total_duration": 1005,
+            "carbon_emissions": {
+                "this_flight": 507000,
+                "typical_for_this_route": 548000,
+                "difference_percent": -7,
+                "lowest_route": 524000
+            },
+            "price": 1108,
+            "type": "Round trip",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "departure_token": "WyJDalJJVmkxa1FtaDVNRnB0WVhkQlEweElSVkZDUnkwdExTMHRMUzB0TFhCbWIyZ3lNVUZCUVVGQlIyNXVZM3BOVFRCUVdFbEJFZ3BCUXpJemZFZExNak00R2dzSXJlRUdFQUlhQTFWVFJEZ2NjSzNoQmc9PSIsW1siWVZSIiwiMjAyNi0wNC0yNyIsIktJWCIsbnVsbCwiQUMiLCIyMyJdLFsiS0lYIiwiMjAyNi0wNC0yOCIsIk5SVCIsbnVsbCwiR0siLCIyMzgiXV1d"
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Vancouver International Airport",
+                        "id": "YVR",
+                        "date": "2026-04-27",
+                        "time": "13:40"
+                    },
+                    "arrival_airport": {
+                        "name": "Kansai International Airport",
+                        "id": "KIX",
+                        "date": "2026-04-28",
+                        "time": "16:25"
+                    },
+                    "duration": 645,
+                    "airplane": "Boeing 787",
+                    "airline": "Air Canada",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AC 23",
+                    "extensions": [
+                        "Power and USB outlets",
+                        "On-demand video",
+                        "Wi-Fi for fee",
+                        "Seat type Average Legroom",
+                        "Legroom 31 inches",
+                        "Carbon emission: 431 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_power_and_usb_outlets": true,
+                        "has_on_demand_video": true,
+                        "wifi": "for fee",
+                        "seat_type": "Average Legroom",
+                        "legroom_short": "31 in",
+                        "legroom_long": "31 inches",
+                        "carbon_emission": 431
+                    }
+                },
+                {
+                    "departure_airport": {
+                        "name": "Kansai International Airport",
+                        "id": "KIX",
+                        "date": "2026-04-28",
+                        "time": "19:50"
+                    },
+                    "arrival_airport": {
+                        "name": "Narita International Airport",
+                        "id": "NRT",
+                        "date": "2026-04-28",
+                        "time": "21:15"
+                    },
+                    "duration": 85,
+                    "airplane": "Airbus A321neo",
+                    "airline": "Jetstar",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/GK.png",
+                    "travel_class": "Economy",
+                    "flight_number": "GK 234",
+                    "extensions": [
+                        "In-seat USB outlet",
+                        "Seat type Below Average Legroom",
+                        "Legroom 29 inches",
+                        "Carbon emission: 57 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_in_seat_usb_outlet": true,
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "29 in",
+                        "legroom_long": "29 inches",
+                        "carbon_emission": 57
+                    }
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 205,
+                    "name": "Kansai International Airport",
+                    "id": "KIX"
+                }
+            ],
+            "total_duration": 935,
+            "carbon_emissions": {
+                "this_flight": 489000,
+                "typical_for_this_route": 548000,
+                "difference_percent": -11,
+                "lowest_route": 524000
+            },
+            "price": 1185,
+            "type": "Round trip",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "departure_token": "WyJDalJJVmkxa1FtaDVNRnB0WVhkQlEweElSVkZDUnkwdExTMHRMUzB0TFhCbWIyZ3lNVUZCUVVGQlIyNXVZM3BOVFRCUVdFbEJFZ3BCUXpJemZFZExNak0wR2dzSXRwMEhFQUlhQTFWVFJEZ2NjTGFkQnc9PSIsW1siWVZSIiwiMjAyNi0wNC0yNyIsIktJWCIsbnVsbCwiQUMiLCIyMyJdLFsiS0lYIiwiMjAyNi0wNC0yOCIsIk5SVCIsbnVsbCwiR0siLCIyMzQiXV1d"
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Vancouver International Airport",
+                        "id": "YVR",
+                        "date": "2026-04-27",
+                        "time": "19:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Calgary International Airport",
+                        "id": "YYC",
+                        "date": "2026-04-27",
+                        "time": "22:00"
+                    },
+                    "duration": 90,
+                    "airplane": "Boeing 737",
+                    "airline": "WestJet",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/WS.png",
+                    "travel_class": "Economy",
+                    "flight_number": "WS 128",
+                    "extensions": [
+                        "Power and USB outlets",
+                        "Stream video to own device",
+                        "Wi-Fi for fee",
+                        "Seat type Average Legroom",
+                        "Legroom 30 inches",
+                        "Carbon emission: 95 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_power_and_usb_outlets": true,
+                        "has_stream_video_to_own_device": true,
+                        "wifi": "for fee",
+                        "seat_type": "Average Legroom",
+                        "legroom_short": "30 in",
+                        "legroom_long": "30 inches",
+                        "carbon_emission": 95
+                    }
+                },
+                {
+                    "departure_airport": {
+                        "name": "Calgary International Airport",
+                        "id": "YYC",
+                        "date": "2026-04-28",
+                        "time": "14:50"
+                    },
+                    "arrival_airport": {
+                        "name": "Narita International Airport",
+                        "id": "NRT",
+                        "date": "2026-04-29",
+                        "time": "16:20"
+                    },
+                    "duration": 630,
+                    "airplane": "Boeing 787",
+                    "airline": "WestJet",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/WS.png",
+                    "travel_class": "Economy",
+                    "flight_number": "WS 80",
+                    "extensions": [
+                        "Power and USB outlets",
+                        "On-demand video",
+                        "Wi-Fi for fee",
+                        "Seat type Average Legroom",
+                        "Legroom 31 inches",
+                        "Carbon emission: 442 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_power_and_usb_outlets": true,
+                        "has_on_demand_video": true,
+                        "wifi": "for fee",
+                        "seat_type": "Average Legroom",
+                        "legroom_short": "31 in",
+                        "legroom_long": "31 inches",
+                        "carbon_emission": 442
+                    }
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 1010,
+                    "name": "Calgary International Airport",
+                    "id": "YYC",
+                    "is_overnight": true
+                }
+            ],
+            "total_duration": 1730,
+            "carbon_emissions": {
+                "this_flight": 539000,
+                "typical_for_this_route": 548000,
+                "difference_percent": -2,
+                "lowest_route": 524000
+            },
+            "price": 1288,
+            "type": "Round trip",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/WS.png",
+            "departure_token": "WyJDalJJVmkxa1FtaDVNRnB0WVhkQlEweElSVkZDUnkwdExTMHRMUzB0TFhCbWIyZ3lNVUZCUVVGQlIyNXVZM3BOVFRCUVdFbEJFZ3BYVXpFeU9IeFhVemd3R2dzSS9PMEhFQUlhQTFWVFJEZ2NjUHp0Qnc9PSIsW1siWVZSIiwiMjAyNi0wNC0yNyIsIllZQyIsbnVsbCwiV1MiLCIxMjgiXSxbIllZQyIsIjIwMjYtMDQtMjgiLCJOUlQiLG51bGwsIldTIiwiODAiXV1d"
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Vancouver International Airport",
+                        "id": "YVR",
+                        "date": "2026-04-27",
+                        "time": "00:55"
+                    },
+                    "arrival_airport": {
+                        "name": "Incheon International Airport",
+                        "id": "ICN",
+                        "date": "2026-04-28",
+                        "time": "04:25"
+                    },
+                    "duration": 690,
+                    "airplane": "Boeing 787-10",
+                    "airline": "Korean Air",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+                    "travel_class": "Economy",
+                    "flight_number": "KE 76",
+                    "is_overnight": true,
+                    "extensions": [
+                        "Power and USB outlets",
+                        "On-demand video",
+                        "Wi-Fi for fee",
+                        "Seat type Above Average Legroom",
+                        "Legroom 32 inches",
+                        "Carbon emission: 420 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_power_and_usb_outlets": true,
+                        "has_on_demand_video": true,
+                        "wifi": "for fee",
+                        "seat_type": "Above Average Legroom",
+                        "legroom_short": "32 in",
+                        "legroom_long": "32 inches",
+                        "carbon_emission": 420
+                    }
+                },
+                {
+                    "departure_airport": {
+                        "name": "Incheon International Airport",
+                        "id": "ICN",
+                        "date": "2026-04-28",
+                        "time": "08:25"
+                    },
+                    "arrival_airport": {
+                        "name": "Narita International Airport",
+                        "id": "NRT",
+                        "date": "2026-04-28",
+                        "time": "10:50"
+                    },
+                    "duration": 145,
+                    "airplane": "Airbus A350",
+                    "airline": "Asiana Airlines",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OZ.png",
+                    "travel_class": "Economy",
+                    "flight_number": "OZ 102",
+                    "is_often_delayed": true,
+                    "extensions": [
+                        "Power and USB outlets",
+                        "On-demand video",
+                        "Wi-Fi for fee",
+                        "Seat type Above Average Legroom",
+                        "Legroom 32 inches",
+                        "Carbon emission: 120 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_power_and_usb_outlets": true,
+                        "has_on_demand_video": true,
+                        "wifi": "for fee",
+                        "seat_type": "Above Average Legroom",
+                        "legroom_short": "32 in",
+                        "legroom_long": "32 inches",
+                        "carbon_emission": 120
+                    }
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 240,
+                    "name": "Incheon International Airport",
+                    "id": "ICN",
+                    "is_overnight": true
+                }
+            ],
+            "total_duration": 1075,
+            "carbon_emissions": {
+                "this_flight": 541000,
+                "typical_for_this_route": 548000,
+                "difference_percent": -1,
+                "lowest_route": 524000
+            },
+            "price": 1338,
+            "type": "Round trip",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "departure_token": "WyJDalJJVmkxa1FtaDVNRnB0WVhkQlEweElSVkZDUnkwdExTMHRMUzB0TFhCbWIyZ3lNVUZCUVVGQlIyNXVZM3BOVFRCUVdFbEJFZ3BMUlRjMmZFOWFNVEF5R2dzSW01VUlFQUlhQTFWVFJEZ2NjSnVWQ0E9PSIsW1siWVZSIiwiMjAyNi0wNC0yNyIsIklDTiIsbnVsbCwiS0UiLCI3NiJdLFsiSUNOIiwiMjAyNi0wNC0yOCIsIk5SVCIsbnVsbCwiT1oiLCIxMDIiXV1d"
+        }
+    ],
+    "price_insights": {
+        "lowest_price": 932,
+        "price_level": "typical",
+        "typical_price_range": {
+            "low_price": 800,
+            "high_price": 1250
+        },
+        "price_history": [
+            {
+                "price": 662,
+                "iso_date": "2026-02-19T08:00:00Z"
+            },
+            {
+                "price": 662,
+                "iso_date": "2026-02-20T08:00:00Z"
+            },
+            {
+                "price": 663,
+                "iso_date": "2026-02-21T08:00:00Z"
+            },
+            {
+                "price": 688,
+                "iso_date": "2026-02-22T08:00:00Z"
+            },
+            {
+                "price": 690,
+                "iso_date": "2026-02-23T08:00:00Z"
+            },
+            {
+                "price": 685,
+                "iso_date": "2026-02-24T08:00:00Z"
+            },
+            {
+                "price": 684,
+                "iso_date": "2026-02-25T08:00:00Z"
+            },
+            {
+                "price": 686,
+                "iso_date": "2026-02-26T08:00:00Z"
+            },
+            {
+                "price": 685,
+                "iso_date": "2026-02-27T08:00:00Z"
+            },
+            {
+                "price": 687,
+                "iso_date": "2026-02-28T08:00:00Z"
+            },
+            {
+                "price": 685,
+                "iso_date": "2026-03-01T08:00:00Z"
+            },
+            {
+                "price": 683,
+                "iso_date": "2026-03-02T08:00:00Z"
+            },
+            {
+                "price": 682,
+                "iso_date": "2026-03-03T08:00:00Z"
+            },
+            {
+                "price": 683,
+                "iso_date": "2026-03-04T08:00:00Z"
+            },
+            {
+                "price": 729,
+                "iso_date": "2026-03-05T08:00:00Z"
+            },
+            {
+                "price": 726,
+                "iso_date": "2026-03-06T08:00:00Z"
+            },
+            {
+                "price": 731,
+                "iso_date": "2026-03-07T08:00:00Z"
+            },
+            {
+                "price": 728,
+                "iso_date": "2026-03-08T08:00:00Z"
+            },
+            {
+                "price": 719,
+                "iso_date": "2026-03-09T07:00:00Z"
+            },
+            {
+                "price": 766,
+                "iso_date": "2026-03-10T07:00:00Z"
+            },
+            {
+                "price": 764,
+                "iso_date": "2026-03-11T07:00:00Z"
+            },
+            {
+                "price": 764,
+                "iso_date": "2026-03-12T07:00:00Z"
+            },
+            {
+                "price": 763,
+                "iso_date": "2026-03-13T07:00:00Z"
+            },
+            {
+                "price": 757,
+                "iso_date": "2026-03-14T07:00:00Z"
+            },
+            {
+                "price": 802,
+                "iso_date": "2026-03-15T07:00:00Z"
+            },
+            {
+                "price": 805,
+                "iso_date": "2026-03-16T07:00:00Z"
+            },
+            {
+                "price": 851,
+                "iso_date": "2026-03-17T07:00:00Z"
+            },
+            {
+                "price": 806,
+                "iso_date": "2026-03-18T07:00:00Z"
+            },
+            {
+                "price": 807,
+                "iso_date": "2026-03-19T07:00:00Z"
+            },
+            {
+                "price": 819,
+                "iso_date": "2026-03-20T07:00:00Z"
+            },
+            {
+                "price": 850,
+                "iso_date": "2026-03-21T07:00:00Z"
+            },
+            {
+                "price": 849,
+                "iso_date": "2026-03-22T07:00:00Z"
+            },
+            {
+                "price": 850,
+                "iso_date": "2026-03-23T07:00:00Z"
+            },
+            {
+                "price": 852,
+                "iso_date": "2026-03-24T07:00:00Z"
+            },
+            {
+                "price": 850,
+                "iso_date": "2026-03-25T07:00:00Z"
+            },
+            {
+                "price": 847,
+                "iso_date": "2026-03-26T07:00:00Z"
+            },
+            {
+                "price": 916,
+                "iso_date": "2026-03-27T07:00:00Z"
+            },
+            {
+                "price": 914,
+                "iso_date": "2026-03-28T07:00:00Z"
+            },
+            {
+                "price": 913,
+                "iso_date": "2026-03-29T07:00:00Z"
+            },
+            {
+                "price": 916,
+                "iso_date": "2026-03-30T07:00:00Z"
+            },
+            {
+                "price": 816,
+                "iso_date": "2026-03-31T07:00:00Z"
+            },
+            {
+                "price": 918,
+                "iso_date": "2026-04-01T07:00:00Z"
+            },
+            {
+                "price": 820,
+                "iso_date": "2026-04-02T07:00:00Z"
+            },
+            {
+                "price": 916,
+                "iso_date": "2026-04-03T07:00:00Z"
+            },
+            {
+                "price": 966,
+                "iso_date": "2026-04-04T07:00:00Z"
+            },
+            {
+                "price": 966,
+                "iso_date": "2026-04-05T07:00:00Z"
+            },
+            {
+                "price": 953,
+                "iso_date": "2026-04-06T07:00:00Z"
+            },
+            {
+                "price": 816,
+                "iso_date": "2026-04-07T07:00:00Z"
+            },
+            {
+                "price": 959,
+                "iso_date": "2026-04-08T07:00:00Z"
+            },
+            {
+                "price": 898,
+                "iso_date": "2026-04-09T07:00:00Z"
+            },
+            {
+                "price": 899,
+                "iso_date": "2026-04-10T07:00:00Z"
+            },
+            {
+                "price": 921,
+                "iso_date": "2026-04-11T07:00:00Z"
+            },
+            {
+                "price": 700,
+                "iso_date": "2026-04-12T07:00:00Z"
+            },
+            {
+                "price": 1005,
+                "iso_date": "2026-04-13T07:00:00Z"
+            },
+            {
+                "price": 926,
+                "iso_date": "2026-04-14T07:00:00Z"
+            },
+            {
+                "price": 929,
+                "iso_date": "2026-04-15T07:00:00Z"
+            },
+            {
+                "price": 933,
+                "iso_date": "2026-04-16T07:00:00Z"
+            },
+            {
+                "price": 939,
+                "iso_date": "2026-04-17T07:00:00Z"
+            },
+            {
+                "price": 935,
+                "iso_date": "2026-04-18T07:00:00Z"
+            },
+            {
+                "price": 1010,
+                "iso_date": "2026-04-19T07:00:00Z"
+            },
+            {
+                "price": 1042,
+                "iso_date": "2026-04-20T07:00:00Z"
+            },
+            {
+                "price": 932,
+                "iso_date": "2026-04-21T07:00:00Z"
+            }
+        ]
+    },
+    "airports": [
+        {
+            "departure": [
+                {
+                    "airport": {
+                        "id": "YVR",
+                        "name": "Vancouver International Airport"
+                    },
+                    "city": "Vancouver",
+                    "country": "Canada",
+                    "country_code": "CA",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtft0K2RmnxQbt93QbyhQnvp9Q-SsXxQL3VfCw4yC5iD6aX0WsT_6560p6Sgys_azC6FAbVPzkBfaIug",
+                    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8fOAQZqIb_SLNL3yYCPFSIWueL8QsSHGCjlCwr_NAN-noGKoqOy868DelgworWZygN2JU21ef8hzjluj4fb5oFXDpUpSjHoZhJ1ejf0g"
+                }
+            ],
+            "arrival": [
+                {
+                    "airport": {
+                        "id": "NRT",
+                        "name": "Narita International Airport"
+                    },
+                    "city": "Tokyo",
+                    "country": "Japan",
+                    "country_code": "JP",
+                    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTqHkzEeI2bSglPzmSGZL7bxXmn0wJgOn2ZtEN8I47uBnzY1CnHzGtD-YseJXqyexcAcw_uJp-D5HTkCg",
+                    "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRLnIToEgwiM_jV3cbw5eQZoUAIg6XqdrJAiClDyyg0w-JBSRN5ZeOT-iFb3SvwkwP1uoBCmT-gKE5VcyCYf-xq4guL4NAFICSaNyOnYOA"
+                }
+            ]
+        },
+        {
+            "departure": [
+                {
+                    "airport": {
+                        "id": "NRT",
+                        "name": "Narita International Airport"
+                    },
+                    "city": "Tokyo",
+                    "country": "Japan",
+                    "country_code": "JP",
+                    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTqHkzEeI2bSglPzmSGZL7bxXmn0wJgOn2ZtEN8I47uBnzY1CnHzGtD-YseJXqyexcAcw_uJp-D5HTkCg",
+                    "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRLnIToEgwiM_jV3cbw5eQZoUAIg6XqdrJAiClDyyg0w-JBSRN5ZeOT-iFb3SvwkwP1uoBCmT-gKE5VcyCYf-xq4guL4NAFICSaNyOnYOA"
+                }
+            ],
+            "arrival": [
+                {
+                    "airport": {
+                        "id": "YVR",
+                        "name": "Vancouver International Airport"
+                    },
+                    "city": "Vancouver",
+                    "country": "Canada",
+                    "country_code": "CA",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtft0K2RmnxQbt93QbyhQnvp9Q-SsXxQL3VfCw4yC5iD6aX0WsT_6560p6Sgys_azC6FAbVPzkBfaIug",
+                    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8fOAQZqIb_SLNL3yYCPFSIWueL8QsSHGCjlCwr_NAN-noGKoqOy868DelgworWZygN2JU21ef8hzjluj4fb5oFXDpUpSjHoZhJ1ejf0g"
+                }
+            ]
+        }
+    ],
+    "airlines": {
+        "alliances": [
+            {
+                "code": "ONEWORLD",
+                "name": "Oneworld"
+            },
+            {
+                "code": "SKYTEAM",
+                "name": "SkyTeam"
+            },
+            {
+                "code": "STAR_ALLIANCE",
+                "name": "Star Alliance"
+            }
+        ],
+        "airlines": [
+            {
+                "code": "AC",
+                "name": "Air Canada"
+            },
+            {
+                "code": "CA",
+                "name": "Air China"
+            },
+            {
+                "code": "AS",
+                "name": "Alaska"
+            },
+            {
+                "code": "AA",
+                "name": "American"
+            },
+            {
+                "code": "NH",
+                "name": "ANA"
+            },
+            {
+                "code": "OZ",
+                "name": "Asiana Airlines"
+            },
+            {
+                "code": "CX",
+                "name": "Cathay Pacific"
+            },
+            {
+                "code": "CI",
+                "name": "China Airlines"
+            },
+            {
+                "code": "MU",
+                "name": "China Eastern"
+            },
+            {
+                "code": "CZ",
+                "name": "China Southern"
+            },
+            {
+                "code": "DL",
+                "name": "Delta"
+            },
+            {
+                "code": "BR",
+                "name": "EVA Air"
+            },
+            {
+                "code": "HU",
+                "name": "Hainan"
+            },
+            {
+                "code": "HA",
+                "name": "Hawaiian"
+            },
+            {
+                "code": "HX",
+                "name": "Hong Kong Airlines"
+            },
+            {
+                "code": "JL",
+                "name": "JAL"
+            },
+            {
+                "code": "7C",
+                "name": "Jeju Air"
+            },
+            {
+                "code": "GK",
+                "name": "Jetstar"
+            },
+            {
+                "code": "KE",
+                "name": "Korean Air"
+            },
+            {
+                "code": "PR",
+                "name": "Philippine Airlines"
+            },
+            {
+                "code": "3U",
+                "name": "Sichuan Airlines"
+            },
+            {
+                "code": "SQ",
+                "name": "Singapore Airlines"
+            },
+            {
+                "code": "JX",
+                "name": "STARLUX Airlines"
+            },
+            {
+                "code": "TW",
+                "name": "T'Way Air"
+            },
+            {
+                "code": "TG",
+                "name": "THAI"
+            },
+            {
+                "code": "UA",
+                "name": "United"
+            },
+            {
+                "code": "WS",
+                "name": "WestJet"
+            },
+            {
+                "code": "MF",
+                "name": "XiamenAir"
+            },
+            {
+                "code": "ZG",
+                "name": "ZIPAIR Tokyo"
+            }
+        ],
+        "hubs": [
+            {
+                "code": "PEK",
+                "name": "Beijing"
+            },
+            {
+                "code": "YYC",
+                "name": "Calgary"
+            },
+            {
+                "code": "DFW",
+                "name": "Dallas"
+            },
+            {
+                "code": "DEN",
+                "name": "Denver"
+            },
+            {
+                "code": "YEG",
+                "name": "Edmonton"
+            },
+            {
+                "code": "HKG",
+                "name": "Hong Kong"
+            },
+            {
+                "code": "YLW",
+                "name": "Kelowna"
+            },
+            {
+                "code": "LAX",
+                "name": "Los Angeles"
+            },
+            {
+                "code": "MNL",
+                "name": "Manila"
+            },
+            {
+                "code": "YUL",
+                "name": "Montreal"
+            },
+            {
+                "code": "KIX",
+                "name": "Osaka"
+            },
+            {
+                "code": "PDX",
+                "name": "Portland"
+            },
+            {
+                "code": "SFO",
+                "name": "San Francisco"
+            },
+            {
+                "code": "SEA",
+                "name": "Seattle"
+            },
+            {
+                "code": "ICN",
+                "name": "Seoul"
+            },
+            {
+                "code": "PVG",
+                "name": "Shanghai"
+            },
+            {
+                "code": "SHA",
+                "name": "Shanghai"
+            },
+            {
+                "code": "TPE",
+                "name": "Taipei City"
+            },
+            {
+                "code": "YYZ",
+                "name": "Toronto"
+            }
+        ]
+    },
+    "baggage_allowance_links": [
+        {
+            "airline_code": "AC",
+            "airline": "Air Canada",
+            "url": "https://www.aircanada.com/ca/en/aco/home/plan/baggage/checked.html"
+        },
+        {
+            "airline_code": "OZ",
+            "airline": "Asiana Airlines",
+            "url": "https://flyasiana.com/C/US/EN/contents/free-baggage"
+        },
+        {
+            "airline_code": "JL",
+            "airline": "JAL",
+            "url": "https://www.jal.co.jp/jp/en/inter/baggage/"
+        },
+        {
+            "airline_code": "GK",
+            "airline": "Jetstar",
+            "url": "https://www.jetstar.com/jp/en/flights/baggage/checked-baggage"
+        },
+        {
+            "airline_code": "KE",
+            "airline": "Korean Air",
+            "url": "https://www.koreanair.com/us/en/footer/others/service-feeds"
+        },
+        {
+            "airline_code": "UA",
+            "airline": "United",
+            "url": "https://www.united.com/en/US/fly/travel/baggage/baggage-information-and-fees.html"
+        },
+        {
+            "airline_code": "WS",
+            "airline": "WestJet",
+            "url": "http://www.westjet.com/guest/en/travel/basics/baggage/checked.shtml"
+        }
+    ],
+    "passenger_assistance_links": [
+        {
+            "airline_code": "ZG",
+            "airline": "ZIPAIR Tokyo",
+            "url": "https://www.zipair.net/en/boarding/support"
+        },
+        {
+            "airline_code": "AC",
+            "airline": "Air Canada",
+            "url": "https://www.aircanada.com/ca/en/aco/home/plan/accessibility.html"
+        },
+        {
+            "airline_code": "JL",
+            "airline": "JAL",
+            "url": "https://www.jal.co.jp/en/jalpri/"
+        },
+        {
+            "airline_code": "UA",
+            "airline": "United",
+            "url": "https://www.united.com/en/us/fly/travel/accessibility-and-assistance.html"
+        },
+        {
+            "airline_code": "GK",
+            "airline": "Jetstar",
+            "url": "https://www.jetstar.com/au/en/help/articles/specific-assistance"
+        },
+        {
+            "airline_code": "WS",
+            "airline": "WestJet",
+            "url": "https://www.westjet.com/en-ca/special-needs"
+        },
+        {
+            "airline_code": "KE",
+            "airline": "Korean Air",
+            "url": "https://www.koreanair.com/kr/en/airport/assistance/special-needs"
+        },
+        {
+            "airline_code": "OZ",
+            "airline": "Asiana Airlines",
+            "url": "https://flyasiana.com/C/KR/EN/contents/disabled-passenger"
+        }
+    ]
+}
