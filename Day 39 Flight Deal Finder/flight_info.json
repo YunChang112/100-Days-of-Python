@@ -1,0 +1,16 @@
+{
+    "sheet1": [
+        {
+            "city": "Tokyo",
+            "iataCode": "NRT",
+            "lowestPrice (usd)": 500,
+            "id": 2
+        },
+        {
+            "city": "Iceland",
+            "iataCode": "KEF",
+            "lowestPrice (usd)": 500,
+            "id": 3
+        }
+    ]
+}

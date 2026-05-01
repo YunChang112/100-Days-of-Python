@@ -1,0 +1,1076 @@
+{
+    "search_metadata": {
+        "id": "search_Lmagj14OoquxgJXGr45E8MQp",
+        "status": "Success",
+        "created_at": "2026-04-27T12:26:41Z",
+        "request_time_taken": 0.67,
+        "parsing_time_taken": 0.0,
+        "total_time_taken": 0.68,
+        "request_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTA0LTI3agcIARIDWVZScgcIARIDS0VGGh4SCjIwMjYtMDUtMDRqBwgBEgNLRUZyBwgBEgNZVlJAAUgBcAGCAQsI____________AZgBAQ&hl=en&gl=us&curr=USD",
+        "html_url": "https://www.searchapi.io/api/v1/searches/search_Lmagj14OoquxgJXGr45E8MQp.html",
+        "json_url": "https://www.searchapi.io/api/v1/searches/search_Lmagj14OoquxgJXGr45E8MQp"
+    },
+    "search_parameters": {
+        "engine": "google_flights",
+        "departure_id": "YVR",
+        "arrival_id": "KEF",
+        "currency": "USD",
+        "hl": "en",
+        "gl": "us",
+        "outbound_date": "2026-04-27",
+        "return_date": "2026-05-04",
+        "flight_type": "round_trip",
+        "travel_class": "economy",
+        "stops": "any",
+        "adults": "1",
+        "children": "0",
+        "infants_in_seat": "0",
+        "infants_on_lap": "0"
+    },
+    "best_flights": [
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Vancouver International Airport",
+                        "id": "YVR",
+                        "date": "2026-04-27",
+                        "time": "19:05"
+                    },
+                    "arrival_airport": {
+                        "name": "Keflav\u00edk International Airport",
+                        "id": "KEF",
+                        "date": "2026-04-28",
+                        "time": "09:25"
+                    },
+                    "duration": 440,
+                    "airplane": "Boeing 737MAX 8 Passenger",
+                    "airline": "Icelandair",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FI.png",
+                    "travel_class": "Economy",
+                    "flight_number": "FI 694",
+                    "is_overnight": true,
+                    "extensions": [
+                        "In-seat USB outlet",
+                        "On-demand video",
+                        "Wi-Fi for fee",
+                        "Seat type Average Legroom",
+                        "Legroom 31 inches",
+                        "Carbon emission: 421 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_in_seat_usb_outlet": true,
+                        "has_on_demand_video": true,
+                        "wifi": "for fee",
+                        "seat_type": "Average Legroom",
+                        "legroom_short": "31 in",
+                        "legroom_long": "31 inches",
+                        "carbon_emission": 421
+                    }
+                }
+            ],
+            "total_duration": 440,
+            "carbon_emissions": {
+                "this_flight": 421000,
+                "typical_for_this_route": 470000,
+                "difference_percent": -10,
+                "lowest_route": 532000
+            },
+            "price": 1072,
+            "type": "Round trip",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FI.png",
+            "departure_token": "WyJDalJJYmpkck9HMWZka1ZxVWtsQllsZEdjbEZDUnkwdExTMHRMUzB0TFMxdmVXZ3hORUZCUVVGQlIyNTJWbWRKUldKbUxUSkJFZ1ZHU1RZNU5Cb0xDTDdGQmhBQ0dnTlZVMFE0SEhDK3hRWT0iLFtbIllWUiIsIjIwMjYtMDQtMjciLCJLRUYiLG51bGwsIkZJIiwiNjk0Il1dXQ=="
+        }
+    ],
+    "other_flights": [
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Vancouver International Airport",
+                        "id": "YVR",
+                        "date": "2026-04-27",
+                        "time": "10:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Seattle-Tacoma International Airport",
+                        "id": "SEA",
+                        "date": "2026-04-27",
+                        "time": "11:32"
+                    },
+                    "duration": 62,
+                    "airplane": "Embraer 175",
+                    "airline": "Alaska",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AS 2045",
+                    "ticket_also_sold_by": [
+                        "Icelandair"
+                    ],
+                    "extensions": [
+                        "Stream video to own device",
+                        "Wi-Fi for fee",
+                        "Seat type Average Legroom",
+                        "Legroom 31 inches",
+                        "Carbon emission: 56 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_stream_video_to_own_device": true,
+                        "wifi": "for fee",
+                        "seat_type": "Average Legroom",
+                        "legroom_short": "31 in",
+                        "legroom_long": "31 inches",
+                        "carbon_emission": 56
+                    }
+                },
+                {
+                    "departure_airport": {
+                        "name": "Seattle-Tacoma International Airport",
+                        "id": "SEA",
+                        "date": "2026-04-27",
+                        "time": "15:40"
+                    },
+                    "arrival_airport": {
+                        "name": "Keflav\u00edk International Airport",
+                        "id": "KEF",
+                        "date": "2026-04-28",
+                        "time": "06:15"
+                    },
+                    "duration": 455,
+                    "airplane": "Boeing 737MAX 8 Passenger",
+                    "airline": "Icelandair",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FI.png",
+                    "travel_class": "Economy",
+                    "flight_number": "FI 680",
+                    "ticket_also_sold_by": [
+                        "Alaska"
+                    ],
+                    "is_overnight": true,
+                    "extensions": [
+                        "In-seat USB outlet",
+                        "On-demand video",
+                        "Wi-Fi for fee",
+                        "Seat type Average Legroom",
+                        "Legroom 31 inches",
+                        "Carbon emission: 410 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_in_seat_usb_outlet": true,
+                        "has_on_demand_video": true,
+                        "wifi": "for fee",
+                        "seat_type": "Average Legroom",
+                        "legroom_short": "31 in",
+                        "legroom_long": "31 inches",
+                        "carbon_emission": 410
+                    }
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 248,
+                    "name": "Seattle-Tacoma International Airport",
+                    "id": "SEA"
+                }
+            ],
+            "total_duration": 765,
+            "carbon_emissions": {
+                "this_flight": 468000,
+                "typical_for_this_route": 470000,
+                "difference_percent": 0,
+                "lowest_route": 532000
+            },
+            "price": 1312,
+            "type": "Round trip",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "departure_token": "WyJDalJJYmpkck9HMWZka1ZxVWtsQllsZEdjbEZDUnkwdExTMHRMUzB0TFMxdmVXZ3hORUZCUVVGQlIyNTJWbWRKUldKbUxUSkJFZ3hCVXpJd05EVjhSa2syT0RBYUN3amFnQWdRQWhvRFZWTkVPQnh3Mm9BSSIsW1siWVZSIiwiMjAyNi0wNC0yNyIsIlNFQSIsbnVsbCwiQVMiLCIyMDQ1Il0sWyJTRUEiLCIyMDI2LTA0LTI3IiwiS0VGIixudWxsLCJGSSIsIjY4MCJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Vancouver International Airport",
+                        "id": "YVR",
+                        "date": "2026-04-27",
+                        "time": "13:15"
+                    },
+                    "arrival_airport": {
+                        "name": "Toronto Pearson International Airport",
+                        "id": "YYZ",
+                        "date": "2026-04-27",
+                        "time": "20:50"
+                    },
+                    "duration": 275,
+                    "airplane": "Boeing 737MAX 8 Passenger",
+                    "airline": "WestJet",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/WS.png",
+                    "travel_class": "Economy",
+                    "flight_number": "WS 714",
+                    "extensions": [
+                        "Power and USB outlets",
+                        "Wi-Fi free",
+                        "Seat type Average Legroom",
+                        "Legroom 30 inches",
+                        "Carbon emission: 235 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_power_and_usb_outlets": true,
+                        "wifi": "free",
+                        "seat_type": "Average Legroom",
+                        "legroom_short": "30 in",
+                        "legroom_long": "30 inches",
+                        "carbon_emission": 235
+                    }
+                },
+                {
+                    "departure_airport": {
+                        "name": "Toronto Pearson International Airport",
+                        "id": "YYZ",
+                        "date": "2026-04-27",
+                        "time": "23:10"
+                    },
+                    "arrival_airport": {
+                        "name": "Keflav\u00edk International Airport",
+                        "id": "KEF",
+                        "date": "2026-04-28",
+                        "time": "08:45"
+                    },
+                    "duration": 335,
+                    "airplane": "Boeing 737MAX 8 Passenger",
+                    "airline": "Icelandair",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FI.png",
+                    "travel_class": "Economy",
+                    "flight_number": "FI 604",
+                    "is_overnight": true,
+                    "extensions": [
+                        "In-seat USB outlet",
+                        "On-demand video",
+                        "Wi-Fi for fee",
+                        "Seat type Average Legroom",
+                        "Legroom 31 inches",
+                        "Carbon emission: 310 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_in_seat_usb_outlet": true,
+                        "has_on_demand_video": true,
+                        "wifi": "for fee",
+                        "seat_type": "Average Legroom",
+                        "legroom_short": "31 in",
+                        "legroom_long": "31 inches",
+                        "carbon_emission": 310
+                    }
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 140,
+                    "name": "Toronto Pearson International Airport",
+                    "id": "YYZ"
+                }
+            ],
+            "total_duration": 750,
+            "carbon_emissions": {
+                "this_flight": 547000,
+                "typical_for_this_route": 470000,
+                "difference_percent": 16,
+                "lowest_route": 532000
+            },
+            "price": 1540,
+            "type": "Round trip",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "departure_token": "WyJDalJJYmpkck9HMWZka1ZxVWtsQllsZEdjbEZDUnkwdExTMHRMUzB0TFMxdmVXZ3hORUZCUVVGQlIyNTJWbWRKUldKbUxUSkJFZ3RYVXpjeE5IeEdTVFl3TkJvTENJS3pDUkFDR2dOVlUwUTRISENDc3drPSIsW1siWVZSIiwiMjAyNi0wNC0yNyIsIllZWiIsbnVsbCwiV1MiLCI3MTQiXSxbIllZWiIsIjIwMjYtMDQtMjciLCJLRUYiLG51bGwsIkZJIiwiNjA0Il1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Vancouver International Airport",
+                        "id": "YVR",
+                        "date": "2026-04-27",
+                        "time": "22:35"
+                    },
+                    "arrival_airport": {
+                        "name": "Toronto Pearson International Airport",
+                        "id": "YYZ",
+                        "date": "2026-04-28",
+                        "time": "06:10"
+                    },
+                    "duration": 275,
+                    "airplane": "Boeing 737MAX 8 Passenger",
+                    "airline": "WestJet",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/WS.png",
+                    "travel_class": "Economy",
+                    "flight_number": "WS 736",
+                    "is_overnight": true,
+                    "extensions": [
+                        "Power and USB outlets",
+                        "Wi-Fi free",
+                        "Seat type Average Legroom",
+                        "Legroom 30 inches",
+                        "Carbon emission: 235 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_power_and_usb_outlets": true,
+                        "wifi": "free",
+                        "seat_type": "Average Legroom",
+                        "legroom_short": "30 in",
+                        "legroom_long": "30 inches",
+                        "carbon_emission": 235
+                    }
+                },
+                {
+                    "departure_airport": {
+                        "name": "Toronto Pearson International Airport",
+                        "id": "YYZ",
+                        "date": "2026-04-28",
+                        "time": "20:45"
+                    },
+                    "arrival_airport": {
+                        "name": "Keflav\u00edk International Airport",
+                        "id": "KEF",
+                        "date": "2026-04-29",
+                        "time": "06:20"
+                    },
+                    "duration": 335,
+                    "airplane": "Airbus A321neo",
+                    "airline": "Icelandair",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FI.png",
+                    "travel_class": "Economy",
+                    "flight_number": "FI 602",
+                    "is_overnight": true,
+                    "extensions": [
+                        "In-seat USB outlet",
+                        "On-demand video",
+                        "Wi-Fi for fee",
+                        "Seat type Average Legroom",
+                        "Legroom 31 inches",
+                        "Carbon emission: 311 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_in_seat_usb_outlet": true,
+                        "has_on_demand_video": true,
+                        "wifi": "for fee",
+                        "seat_type": "Average Legroom",
+                        "legroom_short": "31 in",
+                        "legroom_long": "31 inches",
+                        "carbon_emission": 311
+                    }
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 875,
+                    "name": "Toronto Pearson International Airport",
+                    "id": "YYZ",
+                    "is_overnight": true
+                }
+            ],
+            "total_duration": 1485,
+            "carbon_emissions": {
+                "this_flight": 547000,
+                "typical_for_this_route": 470000,
+                "difference_percent": 16,
+                "lowest_route": 532000
+            },
+            "price": 1540,
+            "type": "Round trip",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "departure_token": "WyJDalJJYmpkck9HMWZka1ZxVWtsQllsZEdjbEZDUnkwdExTMHRMUzB0TFMxdmVXZ3hORUZCUVVGQlIyNTJWbWRKUldKbUxUSkJFZ3RYVXpjek5ueEdTVFl3TWhvTENJS3pDUkFDR2dOVlUwUTRISENDc3drPSIsW1siWVZSIiwiMjAyNi0wNC0yNyIsIllZWiIsbnVsbCwiV1MiLCI3MzYiXSxbIllZWiIsIjIwMjYtMDQtMjgiLCJLRUYiLG51bGwsIkZJIiwiNjAyIl1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Vancouver International Airport",
+                        "id": "YVR",
+                        "date": "2026-04-27",
+                        "time": "12:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Portland International Airport",
+                        "id": "PDX",
+                        "date": "2026-04-27",
+                        "time": "13:43"
+                    },
+                    "duration": 73,
+                    "airplane": "Embraer 175",
+                    "airline": "Alaska",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AS 2346",
+                    "extensions": [
+                        "Stream video to own device",
+                        "Wi-Fi for fee",
+                        "Seat type Average Legroom",
+                        "Legroom 31 inches",
+                        "Carbon emission: 79 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_stream_video_to_own_device": true,
+                        "wifi": "for fee",
+                        "seat_type": "Average Legroom",
+                        "legroom_short": "31 in",
+                        "legroom_long": "31 inches",
+                        "carbon_emission": 79
+                    }
+                },
+                {
+                    "departure_airport": {
+                        "name": "Portland International Airport",
+                        "id": "PDX",
+                        "date": "2026-04-27",
+                        "time": "15:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Keflav\u00edk International Airport",
+                        "id": "KEF",
+                        "date": "2026-04-28",
+                        "time": "06:05"
+                    },
+                    "duration": 455,
+                    "airplane": "Airbus A321neo",
+                    "airline": "Icelandair",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FI.png",
+                    "travel_class": "Economy",
+                    "flight_number": "FI 664",
+                    "ticket_also_sold_by": [
+                        "Alaska"
+                    ],
+                    "is_overnight": true,
+                    "extensions": [
+                        "In-seat USB outlet",
+                        "On-demand video",
+                        "Wi-Fi for fee",
+                        "Seat type Average Legroom",
+                        "Legroom 31 inches",
+                        "Carbon emission: 437 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_in_seat_usb_outlet": true,
+                        "has_on_demand_video": true,
+                        "wifi": "for fee",
+                        "seat_type": "Average Legroom",
+                        "legroom_short": "31 in",
+                        "legroom_long": "31 inches",
+                        "carbon_emission": 437
+                    }
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 107,
+                    "name": "Portland International Airport",
+                    "id": "PDX"
+                }
+            ],
+            "total_duration": 635,
+            "carbon_emissions": {
+                "this_flight": 517000,
+                "typical_for_this_route": 470000,
+                "difference_percent": 10,
+                "lowest_route": 532000
+            },
+            "price": 1731,
+            "type": "Round trip",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "departure_token": "WyJDalJJYmpkck9HMWZka1ZxVWtsQllsZEdjbEZDUnkwdExTMHRMUzB0TFMxdmVXZ3hORUZCUVVGQlIyNTJWbWRKUldKbUxUSkJFZ3hCVXpJek5EWjhSa2syTmpRYUN3akp4d29RQWhvRFZWTkVPQnh3eWNjSyIsW1siWVZSIiwiMjAyNi0wNC0yNyIsIlBEWCIsbnVsbCwiQVMiLCIyMzQ2Il0sWyJQRFgiLCIyMDI2LTA0LTI3IiwiS0VGIixudWxsLCJGSSIsIjY2NCJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Vancouver International Airport",
+                        "id": "YVR",
+                        "date": "2026-04-27",
+                        "time": "21:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Heathrow Airport",
+                        "id": "LHR",
+                        "date": "2026-04-28",
+                        "time": "14:30"
+                    },
+                    "duration": 570,
+                    "airplane": "Boeing 777",
+                    "airline": "British Airways",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "BA 84",
+                    "is_overnight": true,
+                    "extensions": [
+                        "In-seat USB outlet",
+                        "On-demand video",
+                        "Wi-Fi for fee",
+                        "Seat type Average Legroom",
+                        "Legroom 31 inches",
+                        "Carbon emission: 549 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_in_seat_usb_outlet": true,
+                        "has_on_demand_video": true,
+                        "wifi": "for fee",
+                        "seat_type": "Average Legroom",
+                        "legroom_short": "31 in",
+                        "legroom_long": "31 inches",
+                        "carbon_emission": 549
+                    }
+                },
+                {
+                    "departure_airport": {
+                        "name": "Heathrow Airport",
+                        "id": "LHR",
+                        "date": "2026-04-29",
+                        "time": "07:55"
+                    },
+                    "arrival_airport": {
+                        "name": "Keflav\u00edk International Airport",
+                        "id": "KEF",
+                        "date": "2026-04-29",
+                        "time": "10:00"
+                    },
+                    "duration": 185,
+                    "airplane": "Airbus A320neo",
+                    "airline": "British Airways",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "BA 800",
+                    "extensions": [
+                        "In-seat USB outlet",
+                        "Wi-Fi for fee",
+                        "Seat type Below Average Legroom",
+                        "Legroom 29 inches",
+                        "Carbon emission: 141 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_in_seat_usb_outlet": true,
+                        "wifi": "for fee",
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "29 in",
+                        "legroom_long": "29 inches",
+                        "carbon_emission": 141
+                    }
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 1045,
+                    "name": "Heathrow Airport",
+                    "id": "LHR",
+                    "is_overnight": true
+                }
+            ],
+            "total_duration": 1800,
+            "carbon_emissions": {
+                "this_flight": 690000,
+                "typical_for_this_route": 470000,
+                "difference_percent": 47,
+                "lowest_route": 532000
+            },
+            "price": 2277,
+            "type": "Round trip",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+            "departure_token": "WyJDalJJYmpkck9HMWZka1ZxVWtsQllsZEdjbEZDUnkwdExTMHRMUzB0TFMxdmVXZ3hORUZCUVVGQlIyNTJWbWRKUldKbUxUSkJFZ3BDUVRnMGZFSkJPREF3R2dzSTVmSU5FQUlhQTFWVFJEZ2NjT1h5RFE9PSIsW1siWVZSIiwiMjAyNi0wNC0yNyIsIkxIUiIsbnVsbCwiQkEiLCI4NCJdLFsiTEhSIiwiMjAyNi0wNC0yOSIsIktFRiIsbnVsbCwiQkEiLCI4MDAiXV1d"
+        }
+    ],
+    "price_insights": {
+        "lowest_price": 1072,
+        "price_level": "typical",
+        "typical_price_range": {
+            "low_price": 760,
+            "high_price": 1150
+        },
+        "price_history": [
+            {
+                "price": 789,
+                "iso_date": "2026-02-25T08:00:00Z"
+            },
+            {
+                "price": 825,
+                "iso_date": "2026-02-26T08:00:00Z"
+            },
+            {
+                "price": 826,
+                "iso_date": "2026-02-27T08:00:00Z"
+            },
+            {
+                "price": 827,
+                "iso_date": "2026-02-28T08:00:00Z"
+            },
+            {
+                "price": 827,
+                "iso_date": "2026-03-01T08:00:00Z"
+            },
+            {
+                "price": 826,
+                "iso_date": "2026-03-02T08:00:00Z"
+            },
+            {
+                "price": 826,
+                "iso_date": "2026-03-03T08:00:00Z"
+            },
+            {
+                "price": 825,
+                "iso_date": "2026-03-04T08:00:00Z"
+            },
+            {
+                "price": 827,
+                "iso_date": "2026-03-05T08:00:00Z"
+            },
+            {
+                "price": 825,
+                "iso_date": "2026-03-06T08:00:00Z"
+            },
+            {
+                "price": 845,
+                "iso_date": "2026-03-07T08:00:00Z"
+            },
+            {
+                "price": 906,
+                "iso_date": "2026-03-08T08:00:00Z"
+            },
+            {
+                "price": 904,
+                "iso_date": "2026-03-09T07:00:00Z"
+            },
+            {
+                "price": 844,
+                "iso_date": "2026-03-10T07:00:00Z"
+            },
+            {
+                "price": 753,
+                "iso_date": "2026-03-11T07:00:00Z"
+            },
+            {
+                "price": 752,
+                "iso_date": "2026-03-12T07:00:00Z"
+            },
+            {
+                "price": 750,
+                "iso_date": "2026-03-13T07:00:00Z"
+            },
+            {
+                "price": 741,
+                "iso_date": "2026-03-14T07:00:00Z"
+            },
+            {
+                "price": 741,
+                "iso_date": "2026-03-15T07:00:00Z"
+            },
+            {
+                "price": 746,
+                "iso_date": "2026-03-16T07:00:00Z"
+            },
+            {
+                "price": 899,
+                "iso_date": "2026-03-17T07:00:00Z"
+            },
+            {
+                "price": 899,
+                "iso_date": "2026-03-18T07:00:00Z"
+            },
+            {
+                "price": 896,
+                "iso_date": "2026-03-19T07:00:00Z"
+            },
+            {
+                "price": 896,
+                "iso_date": "2026-03-20T07:00:00Z"
+            },
+            {
+                "price": 896,
+                "iso_date": "2026-03-21T07:00:00Z"
+            },
+            {
+                "price": 896,
+                "iso_date": "2026-03-22T07:00:00Z"
+            },
+            {
+                "price": 898,
+                "iso_date": "2026-03-23T07:00:00Z"
+            },
+            {
+                "price": 942,
+                "iso_date": "2026-03-24T07:00:00Z"
+            },
+            {
+                "price": 965,
+                "iso_date": "2026-03-25T07:00:00Z"
+            },
+            {
+                "price": 951,
+                "iso_date": "2026-03-26T07:00:00Z"
+            },
+            {
+                "price": 948,
+                "iso_date": "2026-03-27T07:00:00Z"
+            },
+            {
+                "price": 945,
+                "iso_date": "2026-03-28T07:00:00Z"
+            },
+            {
+                "price": 945,
+                "iso_date": "2026-03-29T07:00:00Z"
+            },
+            {
+                "price": 911,
+                "iso_date": "2026-03-30T07:00:00Z"
+            },
+            {
+                "price": 909,
+                "iso_date": "2026-03-31T07:00:00Z"
+            },
+            {
+                "price": 911,
+                "iso_date": "2026-04-01T07:00:00Z"
+            },
+            {
+                "price": 910,
+                "iso_date": "2026-04-02T07:00:00Z"
+            },
+            {
+                "price": 909,
+                "iso_date": "2026-04-03T07:00:00Z"
+            },
+            {
+                "price": 908,
+                "iso_date": "2026-04-04T07:00:00Z"
+            },
+            {
+                "price": 908,
+                "iso_date": "2026-04-05T07:00:00Z"
+            },
+            {
+                "price": 908,
+                "iso_date": "2026-04-06T07:00:00Z"
+            },
+            {
+                "price": 909,
+                "iso_date": "2026-04-07T07:00:00Z"
+            },
+            {
+                "price": 915,
+                "iso_date": "2026-04-08T07:00:00Z"
+            },
+            {
+                "price": 914,
+                "iso_date": "2026-04-09T07:00:00Z"
+            },
+            {
+                "price": 961,
+                "iso_date": "2026-04-10T07:00:00Z"
+            },
+            {
+                "price": 876,
+                "iso_date": "2026-04-11T07:00:00Z"
+            },
+            {
+                "price": 876,
+                "iso_date": "2026-04-12T07:00:00Z"
+            },
+            {
+                "price": 912,
+                "iso_date": "2026-04-13T07:00:00Z"
+            },
+            {
+                "price": 957,
+                "iso_date": "2026-04-14T07:00:00Z"
+            },
+            {
+                "price": 997,
+                "iso_date": "2026-04-15T07:00:00Z"
+            },
+            {
+                "price": 1001,
+                "iso_date": "2026-04-16T07:00:00Z"
+            },
+            {
+                "price": 1003,
+                "iso_date": "2026-04-17T07:00:00Z"
+            },
+            {
+                "price": 997,
+                "iso_date": "2026-04-18T07:00:00Z"
+            },
+            {
+                "price": 1032,
+                "iso_date": "2026-04-19T07:00:00Z"
+            },
+            {
+                "price": 1093,
+                "iso_date": "2026-04-20T07:00:00Z"
+            },
+            {
+                "price": 1124,
+                "iso_date": "2026-04-21T07:00:00Z"
+            },
+            {
+                "price": 1124,
+                "iso_date": "2026-04-22T07:00:00Z"
+            },
+            {
+                "price": 1200,
+                "iso_date": "2026-04-23T07:00:00Z"
+            },
+            {
+                "price": 1064,
+                "iso_date": "2026-04-24T07:00:00Z"
+            },
+            {
+                "price": 1066,
+                "iso_date": "2026-04-25T07:00:00Z"
+            },
+            {
+                "price": 1066,
+                "iso_date": "2026-04-26T07:00:00Z"
+            },
+            {
+                "price": 1072,
+                "iso_date": "2026-04-27T07:00:00Z"
+            }
+        ]
+    },
+    "airports": [
+        {
+            "departure": [
+                {
+                    "airport": {
+                        "id": "YVR",
+                        "name": "Vancouver International Airport"
+                    },
+                    "city": "Vancouver",
+                    "country": "Canada",
+                    "country_code": "CA",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtft0K2RmnxQbt93QbyhQnvp9Q-SsXxQL3VfCw4yC5iD6aX0WsT_6560p6Sgys_azC6FAbVPzkBfaIug",
+                    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8fOAQZqIb_SLNL3yYCPFSIWueL8QsSHGCjlCwr_NAN-noGKoqOy868DelgworWZygN2JU21ef8hzjluj4fb5oFXDpUpSjHoZhJ1ejf0g"
+                }
+            ],
+            "arrival": [
+                {
+                    "airport": {
+                        "id": "KEF",
+                        "name": "Keflav\u00edk International Airport"
+                    },
+                    "city": "Reykjav\u00edk",
+                    "country": "Iceland",
+                    "country_code": "IS",
+                    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSGvBqFK4czCgdg-4Yyd5-eQvZmPHcw4nyixJB2sQEZFz0XuhET4CwHA_PpOLrw2kHo-Rxd5EL1OM6IFw",
+                    "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRlJC6KzgAknt5cecen-bV6fKYMBcNcPLXmKLOXq02cjaWenaCCZ6Lv4LFxX-2Rnh7WPfJ3XTMUg8eEWLilZO-gYSRSFknrurxRnCYypc4"
+                }
+            ]
+        },
+        {
+            "departure": [
+                {
+                    "airport": {
+                        "id": "KEF",
+                        "name": "Keflav\u00edk International Airport"
+                    },
+                    "city": "Reykjav\u00edk",
+                    "country": "Iceland",
+                    "country_code": "IS",
+                    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSGvBqFK4czCgdg-4Yyd5-eQvZmPHcw4nyixJB2sQEZFz0XuhET4CwHA_PpOLrw2kHo-Rxd5EL1OM6IFw",
+                    "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRlJC6KzgAknt5cecen-bV6fKYMBcNcPLXmKLOXq02cjaWenaCCZ6Lv4LFxX-2Rnh7WPfJ3XTMUg8eEWLilZO-gYSRSFknrurxRnCYypc4"
+                }
+            ],
+            "arrival": [
+                {
+                    "airport": {
+                        "id": "YVR",
+                        "name": "Vancouver International Airport"
+                    },
+                    "city": "Vancouver",
+                    "country": "Canada",
+                    "country_code": "CA",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtft0K2RmnxQbt93QbyhQnvp9Q-SsXxQL3VfCw4yC5iD6aX0WsT_6560p6Sgys_azC6FAbVPzkBfaIug",
+                    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8fOAQZqIb_SLNL3yYCPFSIWueL8QsSHGCjlCwr_NAN-noGKoqOy868DelgworWZygN2JU21ef8hzjluj4fb5oFXDpUpSjHoZhJ1ejf0g"
+                }
+            ]
+        }
+    ],
+    "airlines": {
+        "alliances": [
+            {
+                "code": "ONEWORLD",
+                "name": "Oneworld"
+            },
+            {
+                "code": "SKYTEAM",
+                "name": "SkyTeam"
+            },
+            {
+                "code": "STAR_ALLIANCE",
+                "name": "Star Alliance"
+            }
+        ],
+        "airlines": [
+            {
+                "code": "AC",
+                "name": "Air Canada"
+            },
+            {
+                "code": "AF",
+                "name": "Air France"
+            },
+            {
+                "code": "AI",
+                "name": "Air India"
+            },
+            {
+                "code": "TS",
+                "name": "Air Transat"
+            },
+            {
+                "code": "AS",
+                "name": "Alaska"
+            },
+            {
+                "code": "AA",
+                "name": "American"
+            },
+            {
+                "code": "OS",
+                "name": "Austrian"
+            },
+            {
+                "code": "BA",
+                "name": "British Airways"
+            },
+            {
+                "code": "DL",
+                "name": "Delta"
+            },
+            {
+                "code": "FI",
+                "name": "Icelandair"
+            },
+            {
+                "code": "KL",
+                "name": "KLM"
+            },
+            {
+                "code": "LH",
+                "name": "Lufthansa"
+            },
+            {
+                "code": "SK",
+                "name": "Scandinavian Airlines"
+            },
+            {
+                "code": "LX",
+                "name": "SWISS"
+            },
+            {
+                "code": "UA",
+                "name": "United"
+            },
+            {
+                "code": "VS",
+                "name": "Virgin Atlantic"
+            },
+            {
+                "code": "WS",
+                "name": "WestJet"
+            }
+        ],
+        "hubs": [
+            {
+                "code": "CPH",
+                "name": "Copenhagen"
+            },
+            {
+                "code": "FRA",
+                "name": "Frankfurt am Main"
+            },
+            {
+                "code": "LHR",
+                "name": "London"
+            },
+            {
+                "code": "LGW",
+                "name": "London"
+            },
+            {
+                "code": "PDX",
+                "name": "Portland"
+            },
+            {
+                "code": "SEA",
+                "name": "Seattle"
+            },
+            {
+                "code": "YYZ",
+                "name": "Toronto"
+            },
+            {
+                "code": "VIE",
+                "name": "Vienna"
+            },
+            {
+                "code": "ZRH",
+                "name": "Z\u00fcrich"
+            }
+        ]
+    },
+    "baggage_allowance_links": [
+        {
+            "airline_code": "AS",
+            "airline": "Alaska",
+            "url": "https://www.alaskaair.com/content/travel-info/baggage/overview"
+        },
+        {
+            "airline_code": "BA",
+            "airline": "British Airways",
+            "url": "http://www.britishairways.com/travel/bagchk/public/en_gb"
+        },
+        {
+            "airline_code": "FI",
+            "airline": "Icelandair",
+            "url": "https://www.icelandair.com/support/baggage/allowance/"
+        },
+        {
+            "airline_code": "WS",
+            "airline": "WestJet",
+            "url": "http://www.westjet.com/guest/en/travel/basics/baggage/checked.shtml"
+        }
+    ],
+    "passenger_assistance_links": [
+        {
+            "airline_code": "FI",
+            "airline": "Icelandair",
+            "url": "https://www.icelandair.com/support/special-assistance/"
+        },
+        {
+            "airline_code": "AS",
+            "airline": "Alaska",
+            "url": "https://www.alaskaair.com/content/travel-info/accessible-services"
+        },
+        {
+            "airline_code": "WS",
+            "airline": "WestJet",
+            "url": "https://www.westjet.com/en-ca/special-needs"
+        },
+        {
+            "airline_code": "BA",
+            "airline": "British Airways",
+            "url": "https://www.britishairways.com/en-gb/information/travel-assistance"
+        }
+    ]
+}
