@@ -1,22 +1,4 @@
-## Logic Design
-
-[//]: # (```mermaid)
-
-[//]: # (graph TD)
-
-[//]: # (    A[开始] --> B{是否有本地缓存?})
-
-[//]: # (    B -- 是 --> C[读取 JSON 文件])
-
-[//]: # (    B -- 否 --> D[调用 SerpApi])
-
-[//]: # (    D --> E[保存数据到本地])
-
-[//]: # (    C --> F[解析价格数据])
-
-[//]: # (    E --> F)
-
-[//]: # (    F --> G[结束])
+## Logic Design (看最后)
 
 虽然把API成功扒下来了，但成功的喜悦立马被不知道下一步该干什么给浇灭了！于是痛下决心，要把Day 39的整个Flow chart给来个最专业的大包。于是和
 Gemini沟通，让他给了我最专业的程序要应该有的思考过程，他还给了我一个彩蛋，即mermaid语法，把一行flowchart内容，GitHub自动渲染成结构图。
@@ -64,3 +46,13 @@ for city_code, target_price in iata_and_price.items():
 
 ## 2026年5月1号，距离2025年5月31号签下的Python百天学习还有一个月就一年了！终于，在今天写出了第一个联通OOP内部的一个小脚本！但感觉超级棒！
 已完成DataManager与FlightSearch的类的封装，实现了main.py的逻辑调度。
+
+```mermaid
+graph TD
+    A[开始] --> B{是否有本地缓存?}
+    B -- 是 --> C[读取 JSON 文件]
+    B -- 否 --> D[调用 SerpApi]
+    D --> E[保存数据到本地]
+    C --> F[解析价格数据]
+    E --> F
+    F --> G[结束]
