@@ -1,6 +1,16 @@
 class FlightData:
     #This class is responsible for structuring the flight data.
-    pass
+    def __init__(self, price, origin_airport, destination_airport, out_date, return_date):
+        self.price = price
+        self.origin_airport = origin_airport
+        self.destination_airport = destination_airport
+        self.out_date = out_date
+        self.return_date = return_date
+
+    def __repr__(self):
+        return f"FlightData(price={self.price}, to={self.destination_airport}, date={self.out_date}"
+
+
 
 
 

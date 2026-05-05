@@ -3,13 +3,13 @@
         {
             "city": "Tokyo",
             "iataCode": "NRT",
-            "lowestPrice (usd)": 500,
+            "lowestPrice (usd)": 50000,
             "id": 2
         },
         {
             "city": "Iceland",
             "iataCode": "KEF",
-            "lowestPrice (usd)": 500,
+            "lowestPrice (usd)": 600,
             "id": 3
         }
     ]

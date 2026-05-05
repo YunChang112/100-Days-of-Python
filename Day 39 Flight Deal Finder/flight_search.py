@@ -2,6 +2,7 @@ import requests
 import json
 import os
 from dotenv import load_dotenv
+from flight_data import FlightData
 # print(f"Loading env: {load_dotenv()}")
 load_dotenv()
 
@@ -14,8 +15,8 @@ class FlightSearch:
     def get_price(self, city_code):
         departure_destination = "YVR"
         arrival_destination = city_code
-        outbound_date = "2026-05-01"
-        return_date = "2026-05-04"
+        outbound_date = "2026-06-02"
+        return_date = "2026-06-09"
         file_name = f"cache_{city_code}.json"
 
         url = "https://www.searchapi.io/api/v1/search"
@@ -41,10 +42,29 @@ class FlightSearch:
             with open(file_name, "w") as file:
                 json.dump(data, file, indent=4)
                 # print("API请求成功并已存入缓存")
-        # print(data)
+
+        """在听了Gemini的structuring the flight data的建议之后，我把之前的return一个数字（如下两行），变成了return一个FlightData的实例。
         real_price = data["best_flights"][0]["price"]
         return real_price
+        """
+        try:
+            real_price = data["best_flights"][0]["price"]
+        except (KeyError, IndexError):
+            print(f"没有找到去{city_code}的航班数据")
+            return None
+        """
+        下面这些代码，就是与flight_data.py里面的__init__连起来，所以两者必须一一对应。这样，flight_search.py最后return的，就是一个
+        实例。
+        """
+        new_flight = FlightData(
+            price=real_price,
+            origin_airport=departure_destination,
+            destination_airport=arrival_destination,
+            out_date=outbound_date,
+            return_date=return_date,
+        )
 
+        return new_flight
 
 
 
