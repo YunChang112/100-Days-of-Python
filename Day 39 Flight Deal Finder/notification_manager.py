@@ -26,4 +26,3 @@ class NotificationManager:
             print(f"短信发送失败: {e}")
 
 
-    pass
